@@ -6,7 +6,7 @@ public class Conexion {
 
     private static final String URL = "jdbc:mysql://localhost:3306/VideoCrudEmpleados";
     private static final String usuario = "root";
-    private static final String contraseña = "sqldatos456";
+    private static final String contraseña = "tucontraseña";
 
     public static Connection abrirConexion() throws SQLException {
         return DriverManager.getConnection(URL,usuario,contraseña);
